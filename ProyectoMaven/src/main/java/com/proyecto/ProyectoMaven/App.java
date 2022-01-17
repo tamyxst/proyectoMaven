@@ -46,7 +46,7 @@ public class App
             resultado = num1 / num2;
         } catch (ArithmeticException o) {
             System.out.println("\t...No se puede dividir por 0...");
-            resultado = -1;
+            //resultado = -1;
         }
         return resultado;
     }
